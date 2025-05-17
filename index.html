@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firekidnetzy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+	   magine:0;
+            font-family: Arial, sans-serif
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            margin-left: 240px;
+            padding: 30px;
+            background-color: #f4f4f4
+        }
+
+    </style>
+</head>
+   <script src="script.js"></script>
+
+<body>
+    <div class="sidebar">
+<img src="https://i.imgur.com/rwecw1i.png" alt="Firekidnetzy Logo" width="45" height="45"></center>
+        <u><h3>QUOTES HEARD FROM DIFFERENT PERSPECTIVES</h3></u>
+        <p>Don't stop when it hurts, stop when you are done.</p>
+        <p>Life is like a book—some chapters are happy, some are sad, but all are needed to make it meaningful.</p>
+        <p>Yesterday is history, tomorrow is a mystery, but today is a gift—that’s why it is called the present.</p>
+        <p>A 6-year-old girl asked her 16-year-old brother, "What is love?" He replied, "I know you take my chocolate from my bag, but I still keep it there every day."</p>
+        <p>Being fearless isn't bravery—it’s the ability to go through your fear.</p>
+        <p>Some situations are like a chessboard—you can't win without taking a step.</p>
+        <p>The wrong people come to teach you the right lessons.</p>
+        <p>Love is patience; no matter what, you have to wait and let the universe do its magic.</p>
+    </div>
+
+    <div class="main-content">
+        <h1>Firekidnetzy</h1>
+        <img src="https://www.bing.com/th/id/OIP.wUlf_dARjPyzHzy2nDj4wwHaH5?w=236&h=220&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="Online Image">
+  <button onclick="changeQuote()">Change Quote</button>
+    <p id="quote">"Don't stop when it hurts, stop when you are done."</p>
+<div class="auth-section">
+    <h3>Create an Account / Log In</h3>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button onclick="signUp()">Sign Up</button>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="accountPage" style="display: none;">
+    <h2>Welcome, <span id="displayUsername"></span></h2>
+    <p>Email: <span id="displayEmail"></span></p>
+    <button onclick="logout()">Logout</button>
+<div class="profile-container">
+    <h2>Welcome, <span id="displayUsername"></span></h2>
+    <img id="profilePic" src="default-avatar.png" alt="Profile Picture">
+    <input type="file" id="uploadPic" accept="image/*">
+    <button onclick="uploadProfilePic()">Upload</button>
+    <p>Email: <span id="displayEmail"></span></p>
+    <button onclick="logout()">Logout</button>
+</div>
+
+</div>
+
+    
+        <p><h1>Presenting a platform or website from an interesting young individual known as Firekid</h1>
+</div>
+<p>.Firekidnetzy is a platform created by a young individual transitioning into adulthood and striving to shape his future. It’s a growing multi-program that aims to generate new ideas and support others. Firekidnetzy is evolving, and growth requires collaboration.As my principal once said, "Only those who see the invisible can accomplish the impossible." On **May 15th, 2025**, this website was launched, marking the beginning of its journey toward a better version.</p>
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+    <textarea id="commentInput" placeholder="Type your comment..."></textarea>
+    <button onclick="postComment()">Post Comment</button>
+</div>
+
+<div id="comments">
+</div>
+
+
+

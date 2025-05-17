@@ -1,0 +1,132 @@
+
+body {
+    display: flex;
+   
+    }
+      margin:
+      front-family:arial,sans-serif;
+    }
+ 
+    .container{
+      display:flex;
+    flex-wrap: auto;
+   }
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background-color:#333
+    color:white;
+    padding:20px;
+   position:fixed:
+   left:0;
+  }
+
+
+   .main-content{
+     flex-grow:1;
+     margin-left:240px;
+     padding:30px;
+     background-color:#f4f4f4;
+}
+img {
+    display: block;
+    margin: auto;
+.sidebar {
+    overflow-y: auto;  /* Enables scrolling */
+}
+.comment-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#comments {
+    max-width: 400px;
+    margin: auto;
+}
+
+.comment {
+    background-color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.reply {
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-left: 3px solid #007bff;
+}
+.profile-container {
+    text-align: center;
+}
+
+#profilePic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    object-fit: cover;
+}
+.auth-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
